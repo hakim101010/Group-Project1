@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EZGames</title>
+    <!-- Copy this-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Copy this-->
+    <h1 style="font-size:60px;font-family:'Trebuchet MS';">EZ<span style="color:red">Games</span></h1>
+    <div id="toggle">
+        <i class="indicator"></i>
+    </div>
+    <script>
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            body.classList.toggle('active')
+        }
+        //All of this
+    </script>
+    </body>
+</html>
