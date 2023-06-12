@@ -38,6 +38,7 @@ p{
     font-size: 30px;
     text-align: center;
     color: red;
+    font-family: 'Courier New', Courier, monospace;
 }
 body{
     display: flex;
@@ -110,3 +111,4 @@ a:active {
    
     text-decoration: none;
 }
+
