@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- "game title" - EZGames-->
+    <title>EZGames</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="Index.html"><h1>EZ<span>Games</span></h1></a>
+             <div id="toggle">
+             <i class="indicator"></i>
+                </div>
+            <a href=""><li>Tic Tac Toe</li></a>
+            <a href=""> <li>Hangman</li></a>
+            <a href="about.html"> <li>About</li></a>
+        </ul>
+    </header>
+    <main>
+        <video></video>
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        const body = document.querySelector('body');
+        const toggle = document.getElementById('toggle');
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            body.classList.toggle('active')
+        }
+    </script>
+    </body>
+</html>
