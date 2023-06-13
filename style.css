@@ -157,19 +157,11 @@ body.active
                 inset 0 4px 4px rgba(255,255,255,1),
                 inset 0 -4px 4px rgba(255,255,255,1);
 }
-a{
-    color:white;
-}
 a:link {
-    text-decoration: none;
-}
-a:visited {
     text-decoration: none;
 }
 a:hover{
     color: red;
     text-decoration: underline;
-}
-a:active {
-    text-decoration: none;
+    transition:0.3s;
 }
